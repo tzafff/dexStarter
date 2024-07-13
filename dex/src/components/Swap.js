@@ -83,7 +83,7 @@ function Swap(props) {
 
     async function fetchPrices(one, two) {
         try {
-            const res = await axios.get(`https://dex3-back.vercel.app/tokenPrice`, {
+            const res = await axios.get(`https://dex-starter-back.vercel.app/tokenPrice`, {
                 params: {
                     addressOne: one,
                     addressTwo: two
